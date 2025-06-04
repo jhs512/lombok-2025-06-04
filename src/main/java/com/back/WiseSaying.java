@@ -1,16 +1,14 @@
 package com.back;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
 public class WiseSaying extends Object {
+    @Getter
     private int id;
     private String content;
     private String author;
-
-    public int getId() {
-        return id;
-    }
 
     public void setId(int id) {
         this.id = id;
