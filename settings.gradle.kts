@@ -1,0 +1,1 @@
+rootProject.name = "lombok-2025-06-04"
