@@ -1,15 +1,12 @@
 package com.back;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class WiseSaying extends Object {
     private int id;
     private String content;
     private String author;
-
-    public WiseSaying(int id, String content, String author) {
-        this.id = id;
-        this.content = content;
-        this.author = author;
-    }
 
     public int getId() {
         return id;
