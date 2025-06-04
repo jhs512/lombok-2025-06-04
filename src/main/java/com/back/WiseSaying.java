@@ -3,12 +3,12 @@ package com.back;
 import lombok.*;
 
 @AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 @Getter
 @Setter
 @ToString
 public class WiseSaying extends Object {
-    private int id;
-    private String content;
+    private final int id;
+    private final String content;
     private String author;
 }
